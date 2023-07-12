@@ -1,1 +1,35 @@
 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<title>News Feed</title>
+		<link rel="stylesheet" href="./styles.css" />
+		<script defer src="./App.js"></script>
+		<script
+			defer
+			src="https://kit.fontawesome.com/4901832a95.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<header class="header">
+			<a href="#" class="logo">MY NEWSFEED</a>
+			<div class="btns">
+				<button class="btn" id="load-new-news">LOAD NEW NEWS</button>
+				<button class="btn" id="load-saved">SAVED NEWS</button>
+			</div>
+		</header>
+
+		<main>
+			<div class="category-section">
+				<h2 class="title">Categories</h2>
+				<div class="categories"></div>
+			</div>
+			<div class="news-section"></div>
+		</main>
+	</body>
+</html>
